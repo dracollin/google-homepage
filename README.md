@@ -1,3 +1,3 @@
-A replication of the simple Google homepage with just the searchbox and a results page.
+A replication of the simple Google homepage. Nothing functional, only some markup and styling.
 
 From The Odin Project's curriculum.

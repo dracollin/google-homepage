@@ -1,0 +1,152 @@
+body{
+  margin: 0;
+}
+
+.header{
+  margin: 15px 0 30px 0;
+  position: relative;
+  height: 10px;
+}
+
+ul{
+  display: flex;
+  position: absolute;
+  right: 0;
+  margin: 0 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+li{
+  font-family: sans-serif;
+  font-size: 13px;
+  margin: 0 10px;
+  display: inline;
+  list-style-type: none;
+}
+
+/*icones de navegação*/
+#apps, #notifications{
+  opacity: 0.5;
+}
+
+#apps:hover, #notifications:hover{
+  opacity: 0.8;
+}
+
+#profile_pic{
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+}
+
+a:link, a:visited{
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover{
+  text-decoration: underline;
+  color:black;
+}
+
+.search{
+    display: block;
+    width: 800px;
+    height: 300px;
+    margin: 153px auto 0;
+}
+
+#google_logo{
+  display:block;
+  margin: 0 auto 20px;
+  width: 40%;
+  height: 36%;
+}
+
+/*imagem do icone dentro do form*/
+form img{
+  position: fixed;
+  margin-left: 660px;
+  margin-top: -68px;
+  opacity: .7;
+  float: left;
+  height: 25px;
+  width: 22px;
+}
+
+form img:hover{
+  opacity: 0.6;
+}
+
+#i_text{
+  display:block;
+  height: 45px;
+  width: 588px;
+  margin: 0 auto 30px;
+  border: 0.5px solid #d9d9d9;
+  padding-left: 10px;
+}
+
+#i_text:hover{
+  box-shadow: 0px 2px 8px #dddddd;
+  outline: none;
+}
+
+#i_buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="submit"]:first-child{
+  margin-right: 12px;
+}
+
+input[type="submit"]{
+  background-color: #f2f2f2;
+  color:#8c8c8c;
+  border: none;
+  height: 33px;
+  width: 125px;
+  border-radius: 5%;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover{
+  color:black;
+  border:0.5px solid #d9d9d9;
+}
+
+.footer{
+  font-family: sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  border-top: 0.5px solid #d9d9d9;
+}
+
+.footer p{
+  font-size: 13px;
+  color:#8c8c8c;
+  display:inline;
+  margin: 10px;
+}
+
+.left{
+  margin-left: 20px;
+}
+
+.right{
+  margin-right: 20px;
+}
+
+.footer p:hover{
+  text-decoration: underline;;
+}
